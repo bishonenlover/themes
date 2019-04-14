@@ -24,4 +24,8 @@ Actually not responsive at all. But I played a lot with jquery in this, <p>to ma
   <hr />
 ☆ <b>BL Codes Pink ver</b><p>
 The second theme of a blog about coding that I've deleted a while ago. This is the cutest version. <a href="https://bishonenlover.github.io/themes/blcodes-pink.html">view</a>
+ 
+   <hr />
+☆ <b>Hijikataiscute Blog Theme Preview</b><p>
+This is the theme result of some coding tests I'm always making on my previews blog. This specific result is really cute, so I decided to make a demo out of it. <a href="https://bishonenlover.github.io/themes/hijikataiscute-demo.html">view</a>
   
