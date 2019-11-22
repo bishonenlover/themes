@@ -1459,7 +1459,7 @@ padding:6px;
 background:#f2f2f2;
 width:25%;
 }
- .button{
+ .play-button{
 cursor:pointer;
 }
 </style>
@@ -1576,18 +1576,23 @@ Ziyoou-vachi
   </div>
 
 <script>
+	//selects the button and audio
 var button = document.querySelector(".play-button");
 var audio = document.querySelector(".play-audio"); 
+	//creates a function to toggle between play and pause state
 function playPause(){
 if(audio.paused){
     audio.play();
-    button.innerHTML = "❚❚";
+    button.innerHTML = "❚❚"; 
+	//if its paused then play it
 
 }else{
     audio.pause();
     button.innerHTML = "▶";
+	//if its playing then pause it
 }
 }
+	// makes the button turns into the play button again after the audio end
 audio.addEventListener('timeupdate', function(){
     if(audio.ended){
         button.innerHTML = "▶";
